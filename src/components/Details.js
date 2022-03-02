@@ -19,7 +19,7 @@ function Details({tour}) {
 
   return (
     <div className='details'>
-      <div className='titlePrice'></div>
+      <div className='titlePrice'><div className="title">{tour.name}</div><div className="price">${tour.price}</div></div>
         
         {
           readMore?
