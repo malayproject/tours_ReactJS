@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tours_ReactJS/static/css/main.dd6054b7.css",
-    "main.js": "/tours_ReactJS/static/js/main.219b27c2.js",
+    "main.css": "/tours_ReactJS/static/css/main.6eee1327.css",
+    "main.js": "/tours_ReactJS/static/js/main.d45ee333.js",
     "static/js/787.a878afe9.chunk.js": "/tours_ReactJS/static/js/787.a878afe9.chunk.js",
     "static/media/logo.svg": "/tours_ReactJS/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tours_ReactJS/index.html",
-    "main.dd6054b7.css.map": "/tours_ReactJS/static/css/main.dd6054b7.css.map",
-    "main.219b27c2.js.map": "/tours_ReactJS/static/js/main.219b27c2.js.map",
+    "main.6eee1327.css.map": "/tours_ReactJS/static/css/main.6eee1327.css.map",
+    "main.d45ee333.js.map": "/tours_ReactJS/static/js/main.d45ee333.js.map",
     "787.a878afe9.chunk.js.map": "/tours_ReactJS/static/js/787.a878afe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd6054b7.css",
-    "static/js/main.219b27c2.js"
+    "static/css/main.6eee1327.css",
+    "static/js/main.d45ee333.js"
   ]
 }
