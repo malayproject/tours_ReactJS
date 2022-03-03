@@ -14,7 +14,7 @@ function Details({tour}) {
       strg += tour.info[i]
     }
     console.log(strg)
-    return strg
+    return strg+'...'
   }
 
   return (
@@ -23,8 +23,8 @@ function Details({tour}) {
         
         {
           readMore?
-          <div className='desc'>{tour.info}<div onClick={()=>setReadMore(false)}className='readMore'>&nbsp;&nbsp;read less</div></div>:
-          <div className='desc'>{getShortText()}<div onClick={()=>setReadMore(true)}className='readMore'>...read more</div></div>
+          <div className='desc'>{tour.info}<div onClick={()=>setReadMore(false)}className='readMore'>&nbsp;&nbsp;show less</div></div>:
+          <div className='desc'>{getShortText()}<div onClick={()=>setReadMore(true)}className='readMore'>&nbsp;read more</div></div>
         }
     </div>
   )

@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+}
+body{
+  /* border: 1px solid black; */
 }
 .main {
   width: 100%;
@@ -9,6 +14,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #eee;
+  margin:0;
+  padding:0;
   /* border: 1px solid black; */
 }
 .loading  {
@@ -16,40 +24,57 @@
   font-weight: 700;
 }
 .heading  {
-  width: 60%;
+  width: 8%;
   font-size: 36px;
   font-weight: 700;
-  height: 100px;
-  /* border: 1px solid grey; */
+  height: 70px;
+  border-bottom: 4px solid #006eff;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   letter-spacing: 1px;
+  margin:30px 0 50px 0;
+  padding: 0;
+  white-space: nowrap;
 }
 .tours  {
   width: 60%;
+  /* min-height: 110%; */
   gap: 30px;
-  padding-top: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* border: 1px solid grey; */
 }
-.tour {
-  width: 600px;
-  border-radius: 5px;
-  /* border: 1px solid black; */
-  box-shadow: 4px 4px 10px rgb(168, 166, 166);
+.noTours  {
+  width: 60%;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.noTours .heading{
+  width: 15%;
+}
+.tour {
+  width: 600px;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  box-shadow: 4px 3px 8px rgb(168, 166, 166);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
 }
 .image  {
   width: 100%;
   height: 260px;
   object-fit: cover;
   /* border: 1px soid red; */
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .titlePrice {
   height: 44px;
@@ -62,7 +87,7 @@
 }
 .price{
   height: 70%;
-  color: rgb(64, 64, 255);
+  color: rgb(0, 133, 211);
   font-size: 16px;
   background-color: #ddffee;
   border-radius: 5px;
@@ -81,16 +106,17 @@
 .readMore {
   display: inline;
   font-weight: bold;
-  color: #0579ff;
+  font-size: 14px;
+  color: #0548ff;
   cursor: pointer;
 }
 button  {
-  width: 40%;
+  width: 30%;
   min-width: 150px;
   height: 30px;
   background-color: #ff4343;
   border: none;
-  border-radius: 3px;
+  border-radius: 6px;
   color: #ffcccc;
   margin-bottom: 10px;
   cursor: pointer;
